@@ -94,9 +94,17 @@ aside {
   display: flex;
   width: 100%;
 }
+.text_info {
+  width: 80%;
+}
 
 .logo_lisere {
   width: 20%;
+  justify-content: center;
+  display: flex;
+  padding-right: 3%;
+  padding-left: 3%;
+  padding-top: 3%;
 }
 
 .logo_lisere i {
@@ -109,8 +117,14 @@ aside {
 #profile {
   background-image: url(../images/MUNSCH-Kevin.JPG);
   height: 19%;
+  font-style: italic;
   background-size: contain;
   background-repeat: no-repeat;
+  color: white;
+}
+
+#profile h2 {
+  margin-top: 0;
 }
 
 /* article présentation */
